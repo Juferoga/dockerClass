@@ -3,6 +3,7 @@
 Clase de docker para el Grupo GNU/Linux Universidad Distrital
 
 Comandos a usar 
+
 docker ps
 docker run hello-world
 docker pull alpine | ubuntu | wordpress | lo que sea | hello-world
@@ -13,6 +14,7 @@ docker run -it alpine:3.7 sh
     cat /etc/notd
 
 --Ejecutar 2 contenedores o más crear archivos
+
     docker exec -it <hash> sh
     buscar archivos
 
